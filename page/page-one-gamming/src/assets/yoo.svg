@@ -1,0 +1,48 @@
+<svg width="1600" height="120" viewBox="0 0 1600 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  
+  <!-- Main Line -->
+  <line x1="80" y1="60" x2="1520" y2="60"
+        stroke="#D4AF37"
+        stroke-width="2"
+        stroke-linecap="round"
+        opacity="0.9"/>
+
+  <!-- Left Arrow -->
+  <path d="M40 60 L80 45 L65 60 L80 75 Z"
+        fill="none"
+        stroke="#D4AF37"
+        stroke-width="2"/>
+
+  <!-- Right Arrow -->
+  <path d="M1560 60 L1520 45 L1535 60 L1520 75 Z"
+        fill="none"
+        stroke="#D4AF37"
+        stroke-width="2"/>
+
+  <!-- Center Diamond -->
+  <g transform="translate(800 60)">
+    
+    <!-- Big Diamond -->
+    <rect x="-22" y="-22" width="44" height="44"
+          transform="rotate(45)"
+          fill="none"
+          stroke="#D4AF37"
+          stroke-width="2"/>
+
+    <!-- Left Small Diamond -->
+    <rect x="-52" y="-12" width="24" height="24"
+          transform="rotate(45 -40 0)"
+          fill="none"
+          stroke="#D4AF37"
+          stroke-width="2"/>
+
+    <!-- Right Small Diamond -->
+    <rect x="28" y="-12" width="24" height="24"
+          transform="rotate(45 40 0)"
+          fill="none"
+          stroke="#D4AF37"
+          stroke-width="2"/>
+
+  </g>
+
+</svg>
